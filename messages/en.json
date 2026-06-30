@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "lang_switch": "العربية"
+  },
+  "hero": {
+    "eyebrow": "Web Design Agency — Amman, Jordan",
+    "headline": "We Build Your",
+    "headline_accent": "Digital Presence",
+    "subheadline": "Professional websites and online stores at prices that work for you — with free hosting and domain for a full year",
+    "cta_whatsapp": "Chat on WhatsApp",
+    "cta_quote": "Get a Free Quote"
+  },
+  "services": {
+    "section_label": "What We Do",
+    "title": "Our Services",
+    "website_title": "Website",
+    "website_desc": "Professional 5-page website with free hosting and domain for a full year",
+    "store_title": "Online Store",
+    "store_desc": "Full e-commerce store with everything you need to sell online and grow",
+    "seo_title": "SEO Optimization",
+    "seo_desc": "Get your website ranking on Google and drive free organic traffic"
+  },
+  "portfolio": {
+    "section_label": "Our Work",
+    "title": "Real Projects",
+    "subtitle": "Not mockups — live websites we built for real clients in Jordan",
+    "jordan3d_title": "Jordan 3D Print",
+    "jordan3d_desc": "3D printing services in Jordan",
+    "automation_title": "Jordan Automation",
+    "automation_desc": "Bambu Lab & Elegoo distributor platform in Jordan",
+    "placeholder_title": "Your Project",
+    "placeholder_desc": "Join our clients and build your digital presence",
+    "view_project": "Visit Site",
+    "your_turn": "Your Turn"
+  },
+  "pricing": {
+    "section_label": "Pricing",
+    "title": "Transparent Pricing",
+    "subtitle": "No hidden fees, no surprises — the price you see is what you pay",
+    "popular": "Most Popular",
+    "website_title": "Website",
+    "website_price": "$199",
+    "website_period": "one-time",
+    "website_features": [
+      "Up to 5 professional pages",
+      "Free hosting for 1 year",
+      "Free domain for 1 year",
+      "Mobile-responsive design",
+      "Free SSL certificate"
+    ],
+    "store_title": "Online Store",
+    "store_price": "$399",
+    "store_period": "one-time",
+    "store_features": [
+      "Full e-commerce store",
+      "Free hosting for 1 year",
+      "Free domain for 1 year",
+      "Payment gateway integration",
+      "Easy admin dashboard"
+    ],
+    "care_title": "Monthly Care",
+    "care_price": "Ask Us",
+    "care_period": "per month",
+    "care_features": [
+      "Regular content updates",
+      "Automatic backups",
+      "24/7 technical support",
+      "Monthly performance reports"
+    ],
+    "cta": "Get Started",
+    "cta_contact": "Contact Us"
+  },
+  "whyus": {
+    "section_label": "Why Us",
+    "title": "Why Choose NexaBuild?",
+    "fast_title": "7-Day Delivery",
+    "fast_desc": "Your website is live and running within one week",
+    "hosting_title": "Hosting Included",
+    "hosting_desc": "Fast hosting and free domain for a full year, no extra fees",
+    "arabic_title": "Arabic-First Support",
+    "arabic_desc": "Our team speaks Arabic and understands the Jordanian market",
+    "affordable_title": "Competitive Pricing",
+    "affordable_desc": "World-class quality at prices that work for Jordanian SMEs"
+  },
+  "testimonials": {
+    "section_label": "Client Reviews",
+    "title": "What Our Clients Say",
+    "review1_text": "Excellent service and delivered on time. The website perfectly reflects our identity and has noticeably increased our sales.",
+    "review1_name": "Ahmad Al-Khalidi",
+    "review1_role": "E-commerce Store Owner",
+    "review2_text": "Best investment I made for my business. Professional team, fair prices, and results that exceeded expectations.",
+    "review2_name": "Sara Al-Momani",
+    "review2_role": "Marketing Agency Director",
+    "review3_text": "Professional, collaborative, and quick to communicate. I recommend them to anyone who wants a professional website in Jordan.",
+    "review3_name": "Mohammad Al-Omari",
+    "review3_role": "Entrepreneur"
+  },
+  "footer": {
+    "tagline": "Building your digital presence in Jordan",
+    "phone": "+962 79 747 9825",
+    "email": "info@nexabuild.cloud",
+    "location": "Amman, Jordan",
+    "copyright": "© 2025 NexaBuild. All rights reserved.",
+    "whatsapp_label": "WhatsApp"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Tell us about your project and we'll get back to you within hours",
+    "name_label": "Full Name",
+    "name_placeholder": "John Smith",
+    "phone_label": "Phone / WhatsApp",
+    "phone_placeholder": "07X XXX XXXX",
+    "service_label": "Service Needed",
+    "service_placeholder": "Select a service",
+    "service_website": "Website — $199",
+    "service_store": "Online Store — $399",
+    "service_care": "Monthly Care",
+    "service_other": "General Inquiry",
+    "message_label": "Your Message",
+    "message_placeholder": "Tell us about your business and requirements...",
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "success_title": "Message Sent!",
+    "success_text": "Thanks for reaching out. We'll get back to you within 24 hours via WhatsApp or email.",
+    "whatsapp_alt_label": "Or contact us directly on WhatsApp",
+    "whatsapp_cta": "Open WhatsApp Now"
+  },
+  "metadata": {
+    "home_title": "NexaBuild — Websites & Stores in Jordan",
+    "home_description": "Professional web design and e-commerce development agency in Amman, Jordan. Websites from $199 with free hosting and domain.",
+    "contact_title": "Contact Us — NexaBuild",
+    "contact_description": "Get in touch with NexaBuild for a quote on your website or online store."
+  }
+}
