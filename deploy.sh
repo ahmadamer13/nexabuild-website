@@ -2,7 +2,7 @@
 # ============================================================
 #  NexaBuild — LOCAL deploy script
 #  Site: nexabuild.cloud
-#  Server: /var/www/nexabuild (port 3000)
+#  Server: /var/www/nexabuild (port 3002)
 #  Usage: bash deploy.sh
 # ============================================================
 set -e
@@ -37,7 +37,7 @@ echo "  → Building Next.js app..."
 npm run build
 
 echo "  → Restarting PM2..."
-pm2 restart nexabuild --update-env || pm2 start npm --name "nexabuild" -- start
+pm2 restart nexabuild --update-env || pm2 start npm --name "nexabuild" -- start -- -p 3002
 pm2 save
 
 echo "  → Done!"

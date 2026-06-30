@@ -20,6 +20,7 @@ mkdir -p /var/www/nexabuild
 # Write .env.local — UPDATE the Formspree ID before running!
 cat > /var/www/nexabuild/.env.local << 'ENV'
 NEXT_PUBLIC_FORMSPREE_ID=YOUR_FORMSPREE_ID_HERE
+PORT=3002
 ENV
 
 # Write Nginx config
@@ -29,7 +30,7 @@ server {
     server_name nexabuild.cloud www.nexabuild.cloud;
 
     location / {
-        proxy_pass http://localhost:3000;
+        proxy_pass http://localhost:3002;
         proxy_http_version 1.1;
         proxy_set_header Upgrade $http_upgrade;
         proxy_set_header Connection 'upgrade';
