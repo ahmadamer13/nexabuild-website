@@ -30,6 +30,7 @@ export default function Navbar() {
     { href: '#services', label: t('services') },
     { href: '#portfolio', label: t('portfolio') },
     { href: '#pricing', label: t('pricing') },
+    { href: `/${locale}/blog`, label: t('blog'), isPage: true },
     { href: '#contact-section', label: t('contact') },
   ]
 
@@ -53,17 +54,29 @@ export default function Navbar() {
 
         {/* Desktop links */}
         <div className="hidden md:flex items-center gap-8">
-          {links.map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
-              className={`text-sm font-medium transition-colors duration-200 hover:text-[#F97316] ${
-                scrolled ? 'text-[#0F172A]' : 'text-white'
-              }`}
-            >
-              {link.label}
-            </a>
-          ))}
+          {links.map((link) =>
+            link.isPage ? (
+              <Link
+                key={link.href}
+                href={link.href}
+                className={`text-sm font-medium transition-colors duration-200 hover:text-[#F97316] ${
+                  scrolled ? 'text-[#0F172A]' : 'text-white'
+                }`}
+              >
+                {link.label}
+              </Link>
+            ) : (
+              <a
+                key={link.href}
+                href={link.href}
+                className={`text-sm font-medium transition-colors duration-200 hover:text-[#F97316] ${
+                  scrolled ? 'text-[#0F172A]' : 'text-white'
+                }`}
+              >
+                {link.label}
+              </a>
+            )
+          )}
           <button
             onClick={switchLocale}
             className="text-sm font-medium px-4 py-1.5 rounded-full border transition-all duration-200 hover:scale-105 cursor-pointer"
@@ -95,16 +108,27 @@ export default function Navbar() {
       {/* Mobile menu */}
       {menuOpen && (
         <div className="md:hidden bg-white shadow-lg border-t border-gray-100 px-4 py-4">
-          {links.map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
-              onClick={() => setMenuOpen(false)}
-              className="block py-3 text-[#0F172A] font-medium border-b border-gray-100 last:border-0 hover:text-[#F97316] transition-colors"
-            >
-              {link.label}
-            </a>
-          ))}
+          {links.map((link) =>
+            link.isPage ? (
+              <Link
+                key={link.href}
+                href={link.href}
+                onClick={() => setMenuOpen(false)}
+                className="block py-3 text-[#0F172A] font-medium border-b border-gray-100 last:border-0 hover:text-[#F97316] transition-colors"
+              >
+                {link.label}
+              </Link>
+            ) : (
+              <a
+                key={link.href}
+                href={link.href}
+                onClick={() => setMenuOpen(false)}
+                className="block py-3 text-[#0F172A] font-medium border-b border-gray-100 last:border-0 hover:text-[#F97316] transition-colors"
+              >
+                {link.label}
+              </a>
+            )
+          )}
           <button
             onClick={switchLocale}
             className="mt-3 w-full text-center py-2 rounded-lg border border-[#1B3F8B] text-[#1B3F8B] font-medium hover:bg-[#1B3F8B] hover:text-white transition-colors"
