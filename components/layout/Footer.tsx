@@ -23,9 +23,9 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-semibold text-sm uppercase tracking-wider text-[#64748B] mb-4">
+            <p className="font-semibold text-sm uppercase tracking-wider text-[#64748B] mb-4">
               {t('whatsapp_label')}
-            </h3>
+            </p>
             <div className="space-y-2">
               <a
                 href={`tel:${t('phone').replace(/\s/g, '')}`}

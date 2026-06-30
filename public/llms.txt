@@ -1,0 +1,24 @@
+# NexaBuild
+
+> Professional web design and e-commerce agency based in Amman, Jordan. We build websites and online stores for businesses in the Arab world.
+
+## Services
+
+- **Website Design** — Up to 5 pages, free hosting and domain for 1 year, starting at $199
+- **Online Store** — Full e-commerce with payment gateway, free hosting and domain, starting at $399
+- **Monthly Care** — Ongoing updates, backups, and technical support
+
+## Contact
+
+- WhatsApp: +962 79 747 9825
+- Email: info@nexabuild.cloud
+- Location: Amman, Jordan
+
+## Portfolio
+
+- [Jordan 3D Print](https://jordan3dprint.com) — 3D printing services in Jordan
+- [Jordan Automation](https://app.jordan-automation.com) — Bambu Lab & Elegoo distributor platform
+
+## Languages
+
+This site is available in Arabic (default) and English. Arabic URL: /ar — English URL: /en

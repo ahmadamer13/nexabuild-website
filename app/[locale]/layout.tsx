@@ -26,15 +26,30 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params
   const t = await getTranslations({ locale, namespace: 'metadata' })
+  const baseUrl = 'https://nexabuild.cloud'
+  const altLocale = locale === 'ar' ? 'en' : 'ar'
+
   return {
-    metadataBase: new URL('https://nexabuild.cloud'),
+    metadataBase: new URL(baseUrl),
     title: t('home_title'),
     description: t('home_description'),
+    alternates: {
+      canonical: `${baseUrl}/${locale}`,
+      languages: {
+        ar: `${baseUrl}/ar`,
+        en: `${baseUrl}/en`,
+        'x-default': `${baseUrl}/ar`,
+      },
+    },
     openGraph: {
       title: t('home_title'),
       description: t('home_description'),
-      images: ['/brand/og.png'],
+      images: [{ url: '/brand/og.png', width: 1200, height: 630 }],
       locale: locale === 'ar' ? 'ar_JO' : 'en_US',
+      alternateLocale: locale === 'ar' ? 'en_US' : 'ar_JO',
+      type: 'website',
+      siteName: 'NexaBuild',
+      url: `${baseUrl}/${locale}`,
     },
   }
 }
